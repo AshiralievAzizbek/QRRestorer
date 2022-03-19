@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.GeneratedCodeFragment">
+
+    <ImageView
+        android:contentDescription="@string/generated_qr_code"
+        android:id="@+id/iv_qr_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        app:tint="@color/black" />
+</FrameLayout>
